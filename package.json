@@ -1,0 +1,14 @@
+{
+  "name": "js-dependency-management",
+  "version": "0.0.1",
+  "description": "Sparkbox Foundry article on JavaScript dependency management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bob Yexley",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.4.4"
+  }
+}
