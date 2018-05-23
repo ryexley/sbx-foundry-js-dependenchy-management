@@ -4,11 +4,16 @@
   "description": "Sparkbox Foundry article on JavaScript dependency management",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
   },
   "author": "Bob Yexley",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^22.4.4"
+    "babel-core": "^6.26.3",
+    "babel-jest": "^22.4.4",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^22.4.4",
+    "regenerator-runtime": "^0.11.1"
   }
 }

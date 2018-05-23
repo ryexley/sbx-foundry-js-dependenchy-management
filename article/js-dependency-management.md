@@ -63,3 +63,10 @@ describe('ModuleA', () => {
 });
 ```
 
+```js
+// ./src/module-b.spec.js
+
+describe('ModuleB', () => {
+
+})
+```
